@@ -1,7 +1,7 @@
 ---
 permalink: /
 header:
-  image: ../images/header_small.JPG
+  image: ../images/header.JPG
 title: "Friederike Wölke - About me"
 excerpt: "About me"
 author_profile: true
