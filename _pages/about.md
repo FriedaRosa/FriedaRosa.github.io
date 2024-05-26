@@ -48,5 +48,5 @@ Other activities
 =====
 In 2024 I joined a [European Grassland project](https://www.adamclarktheecologist.com/research/grace) for which I will spend a couple of weeks in the field, sampling grassland plots along the Czech-Austrian border. The project is not related to my doctoral studies - I just really missed being outside in nature and applied for this job that was offered by my doctoral thesis supervisor.
 
-<img src="../images/IMG_5069.JPG" alt="Fieldwork GRACE]" width="400"/>
+<img src="../images/IMG_5069.JPG" alt="Fieldwork GRACE]" width="800"/>
 
