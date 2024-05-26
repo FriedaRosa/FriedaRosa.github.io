@@ -40,6 +40,9 @@ When I returned to Leipzig, I started a student job at iDiv in the Eisenhauer La
 PhD activities
 =====
 In September 2023 I started my 4-year funded doctoral studies at the Czech University of Life Sciences in Prague in Petr Keil's Modeling of Biodiversity Lab working on universal patterns of temporal biodiversity change. 
+I'm currently working on predicting temporal biodiversity changes from static patterns.
+
+<img src="../images/StaticPredictorsScheme.jpg" alt="StaticPredictors]" width="400"/>
 
 Other activities
 =====
