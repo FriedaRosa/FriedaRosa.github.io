@@ -1,7 +1,7 @@
 ---
 title: 'Africa as an evolutionary arena for large fruits'
 collection: publications
-permalink: /publications/2009-10-01-paper-title-number1
+permalink: /publications/Wölke_et_al_2023
 excerpt: ''
 date: 2023-06-19
 venue: 'New Phytologist'
