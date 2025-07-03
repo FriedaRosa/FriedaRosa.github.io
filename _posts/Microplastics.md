@@ -1,7 +1,7 @@
 ---
 title: 'Research Internship'
 date: 2019-06-01
-permalink: /posts/2019/06/
+permalink: /posts/Microplatics
 tags:
   - Internship
   - Marine Biology
