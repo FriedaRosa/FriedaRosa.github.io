@@ -6,7 +6,7 @@ excerpt: ''
 date: 2025-06-01
 venue: 'bioRxiv'
 paperurl: 'https://doi.org/10.1101/2025.06.13.659470'
-citation: 'Soria, C.D., Ortega, G.R., Wolke, F.J., Bartak, V., Tschernosterova, K., Bejcek, V., Herrando, S., Mikulas, I., Stastny, K., Ueta, M. and Vorisek, P., 2025. Spatial autocorrelation of species diversity and distributions in time and across spatial scales. bioRxiv, 2025-06.'
+citation: 'Soria, C.D., Ortega, G.R., Wolke, F.J., Bartak, V., Tschernosterova, K., Bejcek, V., Herrando, S., Mikulas, I., Stastny, K., Ueta, M., Vorisek, P. & Keil, P., 2025. Spatial autocorrelation of species diversity and distributions in time and across spatial scales. bioRxiv, 2025-06.'
 ---
 *Abstract:*
 
