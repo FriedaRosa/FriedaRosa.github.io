@@ -2,7 +2,7 @@
 permalink: /
 header:
   image: ..\images\1500x500.jpg
-title: "Friederike Wölke - About me"
+title: "Personal Website"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
