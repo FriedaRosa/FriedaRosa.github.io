@@ -1,11 +1,9 @@
 ---
 title: "Updated list of conference attendances"
 collection: talks
-type: "Talk"
-permalink: /talks/2025-05-07-list
-venue: ""
+type: "Talk or Poster"
+permalink: /talks/2025-06-07-list
 date: 2025-06-07
-location: ""
 ---
 
 - GfÖ POPBIO (Plant population biology meeting), Prague, Czech Republic (22nd - 24th May 2025) [conference website](https://popbio2025.ibot.cas.cz/)
