@@ -13,33 +13,41 @@ Personal Information
 ======
 
 * Name: Friederike Johanna Rosa Wölke (she/her)
-* Residency: Prague 6, Czech Republic
+* Residency: Prague, Czech Republic
 * Birth date: 10.02.1997 in Pforzheim, Germany
-* Email: wolke@fzp.czu.cz (current affiliation), friederike.woelke@gmail.com (long-term)
+* Email: friederike.woelke@gmail.com (long-term)
 * X (formerly twitter): @FriederikeWolke
 * GitHub: @FriedaRosa
 * [ORCID](https://orcid.org/0000-0001-9034-4883)
 * [ResearchGate](https://www.researchgate.net/profile/Friederike-Woelke)
 * [GoogleScholar](https://scholar.google.com/citations?user=spFIEMsAAAAJ&hl=de)
 * [Personal Website](https://www.FriedaRosa.github.io)
-* **Subjects**: Biodiversity modelling, phylogenetics, macroevolution, marcoecology, temporal change
+* **Subjects**: Biodiversity modelling, phylogenetics, macroevolution, macroecology, temporal change, spatial ecology
 
 
 Education
 ======
-* 2023: Ph.D in Macroecology, Czech University of Life Sciences (expected: 2027)
-* 2022: M.S. in Biodiversity, Ecology & Evolution (internat.), Leipzig University / iDiv
+* 2025: Starting Ph.D in Evolutionary Biogeography and Plant Systematics, Stockholm University, Sweden
+* 2024: Science School on Quantitative Ecology, Charles University Prague & Bayreuth University (1 week)
+* 2023: Starting Ph.D in Macroecology, Czech University of Life Sciences (terminated 2025)
+* 2022: M.Sc. in Biodiversity, Ecology & Evolution (internat.), Leipzig University / iDiv
 * 2022: Summer School in Island Biogeography and Macroecology (2 weeks)
-* 2019: B.S. in Biology, Leipzig University / iDiv
+* 2019: B.Sc. in Biology, Leipzig University / iDiv
 
 Work experience
 ======
+* 01/07/2025 - 30/09/2025: Research Technician 
+  * Laboratory of Quantitative Ecology, Charles University, Prague, Czech Republic
+  * Lab: https://ondrejmottl.github.io/lab/about_the_lab.html
+  * Tasks: Writing unit tests for R Package _RRatepol_
+  * PI: Ondřej Mottl
+
 * 01/05/2024 - 01/08/2024: Field Botanist
   * GRACE project: https://www.adamclarktheecologist.com/research/grace 
   * Czech University of Life Science, Prague, Czech Republic 
-  * Modelling of Biodiversity Lab (MOBI); Department of Spatial Sciences, Faculty of Environmental Sciences,
+  * Modelling of Biodiversity Lab (MOBI); Department of Spatial Sciences, Faculty of Environmental Sciences
   * Tasks: Establishing plots & sampling vegetation in grasslands along the Czech-Austrian border
-  * Principal investigators: Ass. Prof. Adam T. Clark, Dr. Petr Keil
+  * PIs: Ass. Prof. Adam T. Clark, Dr. Petr Keil
  
 * 01/10/2023-ongoing: PhD Student
   * Czech University of Life Science, Prague, Czech Republic
