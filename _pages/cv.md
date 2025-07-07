@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV - Resume 2024"
+title: "CV - Resume 2025"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -49,7 +49,7 @@ Work experience
   * Tasks: Establishing plots & sampling vegetation in grasslands along the Czech-Austrian border
   * PIs: Ass. Prof. Adam T. Clark, Dr. Petr Keil
  
-* 01/10/2023-ongoing: PhD Student
+* 01/10/2023-31/07/2025: PhD Student
   * Czech University of Life Science, Prague, Czech Republic
   * Modelling of Biodiversity Lab (MOBI); Department of Spatial Sciences, Faculty of Environmental Sciences,
   * Topic: Universal imprints of temporal change in static spatial patterns of biodiversity
