@@ -45,6 +45,7 @@ author:
 
 
 # Site Settings
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
