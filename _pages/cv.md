@@ -13,8 +13,8 @@ Personal Information
 ======
 
 * Name: Friederike Johanna Rosa Wölke (she/her)
-* Residency: Prague, Czech Republic
-* Birth date: 10.02.1997 in Pforzheim, Germany
+* Residency: Stockholm, Sweden
+* Birth date: 10.02.1997 in Germany
 * Email: friederike.woelke@gmail.com (long-term)
 * X (formerly twitter): @FriederikeWolke
 * GitHub: @FriedaRosa
@@ -36,6 +36,12 @@ Education
 
 Work experience
 ======
+* 01/10/2025 - ongoing: PhD Student
+  * Stockholm University
+  * Lab: Evolutionary Plant Biogeography group 
+  * Tasks: Investigating the Evolution of Madagascar's biomes
+  * Supervisors: Jan Hackel, Catarina Rydin
+
 * 01/07/2025 - 30/09/2025: Research Technician 
   * Laboratory of Quantitative Ecology, Charles University, Prague, Czech Republic
   * Lab: https://ondrejmottl.github.io/lab/about_the_lab.html
@@ -99,7 +105,7 @@ Skills
   * German (mother-tongue)
   * English (C2, Cambridge Certificate)
   * Spanish, French, Portuguese (not very fluid but would love to improve!)
-  * Czech (aiming at B1 for the end of 2024)
+  * Czech (A2)
   * Latin 
 * Field experience
   * Soil sampling
