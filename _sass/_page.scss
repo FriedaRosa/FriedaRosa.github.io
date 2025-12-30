@@ -172,6 +172,11 @@
   width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
+
+  @include breakpoint($large) {
+    width: calc(100% - 300px);
+    max-width: calc(100% - 300px);
+  }
 }
 
 .page__hero-caption {
