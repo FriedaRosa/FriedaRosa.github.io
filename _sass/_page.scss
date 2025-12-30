@@ -115,6 +115,12 @@
   @include clearfix;
   animation: intro 0.3s both;
   animation-delay: 0.25s;
+  width: 100%;
+  max-width: 100%;
+
+  @include breakpoint($large) {
+    max-width: calc(100% - 300px);
+  }
 
   &--overlay {
     position: relative;
