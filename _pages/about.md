@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-sidebar-below
 permalink: /
 header:
   image: ..\images\1500x500.jpg
