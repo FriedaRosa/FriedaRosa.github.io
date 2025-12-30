@@ -1,10 +1,11 @@
 ---
-layout: splash
+layout: single
 permalink: /
 header:
   image: ..\images\1500x500.jpg
 title: "Friederike Wölke"
 excerpt: "Welcome"
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html
