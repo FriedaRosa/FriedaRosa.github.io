@@ -112,9 +112,16 @@
 .page__hero {
   position: relative;
   margin-bottom: 2em;
+  margin-left: -1em;
+  margin-right: -1em;
   @include clearfix;
   animation: intro 0.3s both;
   animation-delay: 0.25s;
+
+  @include breakpoint($x-large) {
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+  }
 
   &--overlay {
     position: relative;
