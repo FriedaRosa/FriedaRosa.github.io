@@ -409,3 +409,31 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Sidebar below content (for landing page) */
+#sidebar-below {
+  @include container;
+  @include clearfix;
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  
+  @include breakpoint($x-large) {
+    max-width: $x-large;
+  }
+
+  .sidebar {
+    position: relative !important;
+    height: auto !important;
+    overflow-y: visible !important;
+    padding-top: 0 !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 2em;
+
+    @include breakpoint($large) {
+      margin-left: 2em;
+    }
+  }
+}
