@@ -1,0 +1,21 @@
+---
+title: "Forest biome Evolution"
+categories: [PhD, phylogenomics, biogeography, evolution]
+image: "forest_biome_evol.png"
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+---
+
+::: {#hero-heading}
+The goal of the project is to use DNA (353 target loci for Angiosperms) to infer the evolutionary family tree (phylogeny) of characteristic clades across Malagasy biomes to infer biome dynamics along the branches of the phylogeny.
+
+Learn more about my PhD project on the [Stockholm University website](https://www.su.se/english/profiles/f/frwo0304).
+
+Or read about my fieldwork adventure from July 2026 at the [News article on the SU website](https://www.su.se/english/divisions/department-of-ecology-environment-and-plant-sciences/news/articles/2026-09-18-in-search-of-madagascars-plants-fieldwork-from-rainforest-to-fire-prone-highlands)
+
+## My role
+
+I started the PhD in October 2025 at Stockholm University (SU) and will be working on this until October 2029. I'm supervised by [Ass. Prof. Jan Hackel (SU)](https://www.su.se/english/profiles/j/jaha4643), [Prof. Catarina Rydin (SU)](https://www.su.se/english/profiles/r/rydin), and Prof. [Sylvain Razafimandimbison (Swedish Natural History Museum)](https://www.nrm.se/engelska/in-english/meet-our-employees/interna-forskare/sylvain-razafimandimbison). My role involves all steps from funding acquisition to publication.
+:::
