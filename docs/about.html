@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -70,7 +35,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -117,7 +81,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">About</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">About me</a></li><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -143,6 +107,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./projects/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
   </div>
@@ -153,15 +123,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Teaching</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://friedarosa-tutorials-in-r-book.share.connect.posit.cloud/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tutorials in R</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">About me</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./about_me/cv.html" class="sidebar-item-text sidebar-link">
@@ -181,51 +163,137 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul class="collapse">
+  <li><a href="#intro" id="toc-intro" class="nav-link active" data-scroll-target="#intro">Intro</a></li>
+  <li><a href="#bachelor-studies-activities" id="toc-bachelor-studies-activities" class="nav-link" data-scroll-target="#bachelor-studies-activities">Bachelor studies &amp; activities</a></li>
+  <li><a href="#microplastics-internship" id="toc-microplastics-internship" class="nav-link" data-scroll-target="#microplastics-internship">Microplastics internship</a></li>
+  <li><a href="#masters-studies-activities" id="toc-masters-studies-activities" class="nav-link" data-scroll-target="#masters-studies-activities">Masters studies &amp; activities</a></li>
+  <li><a href="#phd-activities" id="toc-phd-activities" class="nav-link" data-scroll-target="#phd-activities">PhD activities</a></li>
+  <li><a href="#other-activities" id="toc-other-activities" class="nav-link" data-scroll-target="#other-activities">Other activities</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="about_me/img/ProfilePic_noBg.png" class="about-image
+  rectangle " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">About me</a></li><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">About</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
 </header>
-
-
-<p>About this site</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+    <div class="about-links">
+  <a href="https://orcid.org/0000-0001-9034-4883" class="about-link" rel="" target="">
+    <i class="bi bi-ORCID"></i>
+     <span class="about-link-text">ORCID</span>
+  </a>
+  <a href="https://github.com/FriedaRosa" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="https://www.inaturalist.org/people/friederikewlke" class="about-link" rel="" target="">
+    <i class="bi bi-iNat"></i>
+     <span class="about-link-text">iNaturalist</span>
+  </a>
 </div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+
+<section id="intro" class="level2">
+<h2 data-anchor-id="intro">Intro</h2>
+<blockquote class="blockquote">
+<p>Hi! Welcome to my website mostly about my science life. I’m Friederike but everyone calls me Frieda. I’m a biologist currently living in Sweden where I’m doing a PhD on investigating the <em>Evolution of Biomes in Madagascar using Plant Phylogenetics</em> at Stockholm University.</p>
+</blockquote>
+<p>I’m originally from Germany but I’ve always felt at home wherever I went. Whether it was Cape Town in South Africa where I lived for some time, or Chile where I did a research internship, or whether it was Prague or Stockholm. I enjoy discovering new places and living in different countries.. even more so if I can connect trips with research. I’m currently working on a project that will involve some time in Madagascar and I’m more than excited!</p>
+</section>
+<section id="bachelor-studies-activities" class="level2">
+<h2 data-anchor-id="bachelor-studies-activities">Bachelor studies &amp; activities</h2>
+<p>Following my high school graduation close to Bonn in Germany, I quickly moved to Leipzig, where I did my bachelor’s and master’s in Biology, and Biodiveristy, Ecology and Evolution respectively (2019, 2021). During my bachelor studies and student jobs (2016-2019), I mostly focussed on botany, genetics and plant biotechnological subjects, but through unplanned circumstances, I found my passion in exploring macroecological patterns in nature. In 2019 I finished my bachelor’s thesis at <a href="https://www.idiv.de/research/core-research-groups/experimental-interaction-ecology/">iDiv</a>, where I explored the <a href="https://friedarosa.github.io/publications/bachelor">secret drivers of soil microbes and their productivity across global drylands</a>. The thesis was mostly focussed on laboratory work with soil samples, but also included spatial macroecological modelling.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="about_me/img/IMG_1903.JPG" class="img-fluid figure-img"></p>
+<figcaption>Bachelor’s Work</figcaption>
+</figure>
 </div>
+</section>
+<section id="microplastics-internship" class="level2">
+<h2 data-anchor-id="microplastics-internship">Microplastics internship</h2>
+<p>Right after I handed in my thesis, I headed to Coquimbo, Chile to do a DAAD-funded research intership on microplastics pollution in the South Pacific at <a href="https://bedim.ucn.cl/">BEDIM at Universidad Católica del Norte</a> contributing with lab and field work to the following publication: <a href="https://doi.org/10.3389/fmars.2021.688224">Sea-Surface Slicks and Their Effect on the Concentration of Plastics and Zooplankton in the Coastal Waters of Rapa Nui (Easter Island)</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="about_me/img/IMG_5770.jpg" class="img-fluid figure-img"></p>
+<figcaption>Internship Chile</figcaption>
+</figure>
+</div>
+<p>During my time in Chile I fell in love with the Atacama desert and the Andes and had some time to travel around. I really miss the desert and different tones of red and orange of the mountains and landscapes and the differences between hot and cold desert regions in the Atacama. I was impressed by the plant diversity and traits of desert vegetation and all of the marine fossils that could be so easily found by having a stroll through the desert.</p>
+</section>
+<section id="masters-studies-activities" class="level2">
+<h2 data-anchor-id="masters-studies-activities">Masters studies &amp; activities</h2>
+<p>When I returned to Leipzig, I started a student job at iDiv in the <a href="https://www.idiv.de/research/core-research-groups/experimental-interaction-ecology/">Eisenhauer Lab</a> to count and determine invertebrate samples from an <a href="https://www.idiv.de/research/projects/idiv-ecotron/experiments/">experimental insect decline project</a> and do fieldwork on the <a href="https://www.idiv.de/research/projects/mydiv/">MyDiv BEF experimental site in Bad Lauchstädt</a>. When COVID hit, I had to refocus my work to computational studies and started my master’s thesis with <a href="https://www.idiv.de/research/junior-research-groups/evolution-and-adaptation/">Renske Onstein at iDiv</a> on the <a href="https://friedarosa.github.io/publications/masters">macroecology &amp; macroevolution of fruit size in plants</a> (see <a href="https://nph.onlinelibrary.wiley.com/doi/epdf/10.1111/nph.19061">New Phytologist paper from 2023</a> or <a href="https://kew.iro.bl.uk/concern/reports/fccd9838-42a9-401f-a518-e76142164193">State of the Worlds Plants &amp; Fungi 2023 report</a>, Chapter 4). I also had the pleasure to work with Rachel Souza Ferreira on the evolution of spinescence in Legumes - it was published in New Phytologist this year and you can find it <a href="https://doi.org/10.1111/nph.71376">here</a>.</p>
+</section>
+<section id="phd-activities" class="level2">
+<h2 data-anchor-id="phd-activities">PhD activities</h2>
+<section id="prague-czech-republic-2023-2025" class="level3">
+<h3 data-anchor-id="prague-czech-republic-2023-2025">Prague, Czech Republic (2023-2025)</h3>
+<p>In September 2023 I joined <a href="https://petrkeil.github.io/">Petr Keil’s Modeling of Biodiversity Lab</a> at the Czech University of Life Sciences in Prague, Czechia, for a PhD in Spatial Sciences. I worked on universal patterns of temporal biodiversity change in spatial data. There is a <a href="https://doi.org/10.22541/au.172978475.51624422/v1">preprint</a> out that I did during my first year on predicting temporal change from a single snapshot of a species’ distribution and geometric features of that range.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="about_me/img/StaticPredictorsScheme.jpg" class="img-fluid figure-img"></p>
+<figcaption>Predicting temporal change from static snapshots</figcaption>
+</figure>
+</div>
+<p>During the time in Prague, I collaborated with my colleagues for their projects (e.g., <a href="https://doi.org/10.1111/geb.70221">Soria et al.</a>, <a href="https://doi.org/10.64898/2026.09.24.754027">Grattarola et al.</a>, <a href="https://doi.org/10.64898/2026.05.29.728651">Ortega-Solis et al.</a>, spent numerous hours double-, triple- and quadruple-checking datasets that were harmonized by my colleagues, and finished all formal PhD requirements for four years within the first year.</p>
+</section>
+<section id="stockholm-sweden-2025---ongoing" class="level3">
+<h3 data-anchor-id="stockholm-sweden-2025---ongoing">Stockholm, Sweden (2025 - ongoing)</h3>
+<p>In 2025, I changed location, subject, and PhD supervisor and am now enrolled in a PhD program at Stockholm University. I’m super glad I made the change and I can finally go back to working with and in nature again instead of being a boring ‘desk biologist’.</p>
+<p>For my PhD in Stockholm I joined <a href="https://www.su.se/english/research/research-catalogue/research-groups/9/group-hackel">Jan Hackel’s <em>Evolutionary plant biogeography</em> group</a> to investigate the Evolution of Biomes in Madagascar using Plant Phylogenetics. In 2026, I spent some weeks in the field in Madagascar, collecting samples from endemic plants to reconstruct the origin and evolution of biomes. I will use these samples to generate genetic data in the lab, infer phylogenies and use models to reconstruct their evolution through time. I’m looking very much forward to doing fieldwork in Madagascar and to spend some months locked in the lab before I have to go back to working on my desk.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Fig1.png" class="img-fluid figure-img"></p>
+<figcaption>Tapia Savanna, Madagascar</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Fig5.jpg" class="img-fluid figure-img"></p>
+<figcaption>Andasibe rainforest, Madagascar</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Fig9.jpg" class="img-fluid figure-img" width="2250"></p>
+<figcaption>Pressing Herbarium Vouchers, Madagascar</figcaption>
+</figure>
+</div>
+<p><img src="images/IMG_20260719_142029643_HDR.jpg" class="img-fluid"></p>
+<p><img src="images/IMG_20260716_161502424_HDR-01.jpg" class="img-fluid"></p>
+</section>
+</section>
+<section id="other-activities" class="level2">
+<h2 data-anchor-id="other-activities">Other activities</h2>
+<p>During my PhD in Prague, I joined a <a href="https://www.adamclarktheecologist.com/research/grace">European Grassland project</a> for which I spent a couple of weeks in the field, sampling grassland plots along the Czech-Austrian border in 2024.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="about_me/img/header.JPG" class="img-fluid figure-img"></p>
+<figcaption>Fieldwork Grace</figcaption>
+</figure>
+</div>
+<p>Following my contract termination at CZU in Prague in July 2025, I started working on Rpackage development and writing unit tests with <a href="https://ondrejmottl.github.io/">Ondřej Mottl</a> for <a href="https://github.com/HOPE-UIB-BIO/R-Ratepol-package"><em>RRatepol</em></a>. A package for estimating rate of change (RoC) from paleoecological community data in time series (e.g., Fossils, Pollen). More infos <a href="https://hope-uib-bio.github.io/R-Ratepol-package/">here</a>.</p>
 
 
-
-</main> <!-- /main -->
+</section>
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -290,7 +358,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/FriedaRosa\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
