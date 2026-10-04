@@ -29,11 +29,10 @@ I am a PhD student in Plant Systematics and part of the [Evolutionary Plant Biog
 
 ### Website Navigation
 
-- [About me](/about_me/about_the_lab.qmd) 👩🏽‍💻
+- [About me](about.qmd) 👩🏽‍💻
 - [Current Projects](projects/index.qmd) 🚀
 - [Teaching Activities](teaching/teaching.qmd) 📚
 - [My CV](about_me/cv.qmd) 📄 ([download PDF](about_me/cv.pdf))
-- [Contact Me](/collaboration/get_in_touch.qmd) 📬
 - [Publications](about_me/list_of_publications.qmd) 📚
 
 :::
