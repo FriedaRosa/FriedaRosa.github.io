@@ -27,5 +27,12 @@ I am a PhD student in Plant Systematics and part of the [Evolutionary Plant Biog
 
 🔬 I combine field work, genomics, bioinformatics and evolutionary/biogeographical analyses in Bayesian frameworks to understand changes in vegetation types along evolutionary time scales. I combine spatial, morphological, genomic, and paleo-history data to investigate questions about trait evolution, ancestral biomes and areas, dispersal and colonization.
 
+### Website Navigation
+
+- [About me](about.qmd) 👩🏽‍💻
+- [Current Projects](projects/index.qmd) 🚀
+- [Teaching Activities](teaching/teaching.qmd) 📚
+- [My CV](about_me/cv.qmd) 📄 ([download PDF](about_me/cv.pdf))
+- [Publications](about_me/list_of_publications.qmd) 📚
 
 :::
