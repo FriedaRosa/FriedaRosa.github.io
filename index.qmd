@@ -1,0 +1,38 @@
+---
+title: "Friederike J.R.Wölke"
+image: about_me/img/ProfilePic_noBg.png
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: ORCID
+      text: ORCID
+      href: https://orcid.org/0000-0001-9034-4883
+    - icon: github
+      text: Github
+      href: https://github.com/FriedaRosa
+    - icon: iNat
+      text: iNaturalist
+      href: https://www.inaturalist.org/people/friederikewlke
+---
+
+::: {#hero-heading}
+
+Hello, I'm Friederike Wölke,
+
+I am a PhD student in Plant Systematics and part of the [Evolutionary Plant Biogeography group](https://www.su.se/english/research/research-catalogue/research-groups/9/group-hackel) at the [Department of Ecology, Environment and Plant Sciences](https://www.su.se/english/divisions/department-of-ecology-environment-and-plant-sciences) at Stockholm University, Stockholm, Sweden.
+
+🌿 I study evolution of plants from phylogenies (evolutionary family trees). My PhD is about reconstructing the origins and dynamics of major vegetation types in Madagascar using plant phylogenomics. 
+
+🔬 I combine field work, genomics, bioinformatics and evolutionary/biogeographical analyses in Bayesian frameworks to understand changes in vegetation types along evolutionary time scales. I combine spatial, morphological, genomic, and paleo-history data to investigate questions about trait evolution, ancestral biomes and areas, dispersal and colonization.
+
+### Website Navigation
+
+- [About me](about.qmd) 👩🏽‍💻
+- [Current Projects](projects/index.qmd) 🚀
+- [Teaching Activities](teaching/teaching.qmd) 📚
+- [My CV](about_me/cv.qmd) 📄 ([download PDF](about_me/cv.pdf))
+- [Publications](about_me/list_of_publications.qmd) 📚
+
+:::
