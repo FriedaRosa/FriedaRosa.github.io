@@ -28,9 +28,9 @@ listing:
     sort: "false" 
     type: grid
     grid-item-border: false
+
 ---
 
-```{=html}
 <style>
 #listing-active .thumbnail-image,
 #listing-past .thumbnail-image {
@@ -39,7 +39,6 @@ listing:
   padding: 0.5rem;
 }
 </style>
-```
 
 ## Active Projects
 
@@ -47,6 +46,6 @@ listing:
 :::
 
 ## Past Projects
-
 ::: {#past}
+
 :::
