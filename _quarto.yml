@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: false
+  title: "Friederike Wölke"
+  description: "Personal website of Friederike Wölke, Department of Ecology, Environment and Plant Sciences, Stockholm University"
+
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
+  repo-url: "https://github.com/FriedaRosa/FriedaRosa.github.io"
+  favicon: about_me/img/ProfilePic_noBg.png
+  image: about_me/img/ProfilePic_noBg.png
+
+  sidebar:
+    pinned: true
+    align: center
+    style: "docked"
+    collapse-level: 1
+    contents:
+      - text: "Home"
+        href: index.qmd
+
+      - text: "Projects"
+        href: projects/index.qmd
+
+      - text: "Teaching"
+        href: teaching/teaching.qmd
+
+      - text: "Tutorials in R"
+        href: https://friedarosa-tutorials-in-r-book.share.connect.posit.cloud/
+
+      - section: "About me"
+        contents:
+          - text: "About"
+            href: about.qmd
+          - text: "CV"
+            href: about_me/cv.qmd
+          - text: "List of publications"
+            href: about_me/list_of_publications.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+
