@@ -1,0 +1,67 @@
+{
+  "index.qmd": {
+    "index.html": "e6aadffa"
+  },
+  "about.qmd": {
+    "about.html": "0c28f8b8"
+  },
+  "about_me/cv.qmd": {
+    "cv.html": "ce67a607",
+    "cv.tex": "5c6ae2de"
+  },
+  "about_me/list_of_publications.qmd": {
+    "list_of_publications.html": "820b6956"
+  },
+  "projects/index.qmd": {
+    "index.html": "bcc27d8c"
+  },
+  "projects/phd_prague/proj_prague.qmd": {
+    "proj_prague.html": "dfc14a78"
+  },
+  "projects/phd_stockholm/proj_sweden.qmd": {
+    "proj_sweden.html": "39c91638"
+  },
+  "teaching/teaching.qmd": {
+    "teaching.html": "26b1bdf2"
+  },
+  "projects/phd_stockholm/index.qmd": {
+    "index.html": "2bddca89"
+  },
+  "projects/BEAST/index.qmd": {
+    "index.html": "eb76f3c0"
+  },
+  "projects/fruit-size-evo/index.qmd": {
+    "index.html": "fe92fffb"
+  },
+  "projects/spinescence-evo/index.qmd": {
+    "index.html": "ce11bf75"
+  },
+  "projects/GRACE/index.qmd": {
+    "index.html": "a640968c"
+  },
+  "projects/microplastics-pollution/index.qmd": {
+    "index.html": "5bb87ac5"
+  },
+  "projects/forest-biome-evol-mada/index.qmd": {
+    "index.html": "fbcbe1a3"
+  },
+  "projects/invacost-plants/index.qmd": {
+    "index.html": "401e9e6b"
+  },
+  "projects/tapia-biome-evol-mada/index.qmd": {
+    "index.html": "c1b3e45d"
+  },
+  "docs/about_me/cv.qmd": {
+    "cv.html": "bd10431d",
+    "cv.tex": "174d22c7"
+  },
+  "docs/about_me/list_of_publications.qmd": {
+    "list_of_publications.html": "85fee927"
+  },
+  "docs/projects/index.qmd": {
+    "index.html": "c73a8c03"
+  },
+  "docs/teaching/teaching.qmd": {
+    "teaching.html": "2770a6a5"
+  }
+}
