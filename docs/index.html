@@ -113,13 +113,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects/index.qmd" class="sidebar-item-text sidebar-link">
+  <a href="./projects/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./teaching/teaching.qmd" class="sidebar-item-text sidebar-link">
+  <a href="./teaching/teaching.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teaching</span></a>
   </div>
 </li>
@@ -146,13 +146,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about_me/cv.qmd" class="sidebar-item-text sidebar-link">
+  <a href="./about_me/cv.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CV</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about_me/list_of_publications.qmd" class="sidebar-item-text sidebar-link">
+  <a href="./about_me/list_of_publications.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">List of publications</span></a>
   </div>
 </li>
@@ -201,6 +201,16 @@ ul.task-list li input[type="checkbox"] {
 <p>I am a PhD student in Plant Systematics and part of the <a href="https://www.su.se/english/research/research-catalogue/research-groups/9/group-hackel">Evolutionary Plant Biogeography group</a> at the <a href="https://www.su.se/english/divisions/department-of-ecology-environment-and-plant-sciences">Department of Ecology, Environment and Plant Sciences</a> at Stockholm University, Stockholm, Sweden.</p>
 <p>🌿 I study evolution of plants from phylogenies (evolutionary family trees). My PhD is about reconstructing the origins and dynamics of major vegetation types in Madagascar using plant phylogenomics.</p>
 <p>🔬 I combine field work, genomics, bioinformatics and evolutionary/biogeographical analyses in Bayesian frameworks to understand changes in vegetation types along evolutionary time scales. I combine spatial, morphological, genomic, and paleo-history data to investigate questions about trait evolution, ancestral biomes and areas, dispersal and colonization.</p>
+<section id="website-navigation" class="level3">
+<h3 data-anchor-id="website-navigation">Website Navigation</h3>
+<ul>
+<li><a href="./about.html">About me</a> 👩🏽‍💻</li>
+<li><a href="./projects/index.html">Current Projects</a> 🚀</li>
+<li><a href="./teaching/teaching.html">Teaching Activities</a> 📚</li>
+<li><a href="./about_me/cv.html">My CV</a> 📄 (<a href="about_me/cv.pdf">download PDF</a>)</li>
+<li><a href="./about_me/list_of_publications.html">Publications</a> 📚</li>
+</ul>
+</section>
 </div></div>
 </div>
 
@@ -275,7 +285,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/FriedaRosa\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
